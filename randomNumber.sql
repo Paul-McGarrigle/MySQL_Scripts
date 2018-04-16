@@ -14,7 +14,7 @@ CREATE PROCEDURE InitTable(IN n INT)
 			INSERT INTO randomNumber VALUES (rand()*1000);
 			SET i = i + 1;
 		END WHILE;
-    END //
+    	END //
     
 DELIMITER ;
 
